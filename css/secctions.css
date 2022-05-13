@@ -1,0 +1,783 @@
+/*//////////////////////////////////////////seccion one////////////////////////////////////////////*/
+/*////////////////////////////////////////////mobile//////////////////////////////////////////////*/
+@media (max-width: 767px) {
+    .section_page_one{
+        background-image: url("../img/mobile/Background\(1\).png");
+        max-width: 767px;
+        height: 1200px;
+        padding: 180px 15px 20px 15px;
+    }
+
+    .section_page_one_container{
+        height: 100%;
+    }
+    .slogan_container{
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .rectangle{
+        right: 15px;
+        max-width:600px;
+        height: 358px;
+        border: 10px solid #7572FF;
+    }
+    .slogan {
+        position: absolute;
+        top: 21px;
+        right: 38px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+        width: 90%;
+        height :318px;
+    }
+    .slogan h1{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        color: #5956E9; 
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+    .slogan p{
+        margin: 0;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #6C6C72;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .slogan h6{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #232233;
+        text-align: start;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+    .link-dawnload{
+        display: flex;
+        width: 230px;
+        height: 30px;
+        gap: 20px;
+    }
+    .link-dawnload img{
+        width: 30%;
+    }
+
+
+    .app_image{
+        display: flex;
+        justify-content: center;
+    }
+    .app_image img{
+        width: 100%;
+    }
+}
+/*//////////////////////////////////////////seccion TWO////////////////////////////////////////////*/
+/*////////////////////////////////////////////mobile//////////////////////////////////////////////*/
+@media (max-width: 767px) {
+    .section_page_two{
+        background-color: white;
+        max-width: 767px;
+        height: 1087px;
+        padding: 60px 14px 92px 14px;
+    }
+    .content_pag_two {
+        height: 100%;
+    }
+    .content_pag_two h5{
+        text-align: center;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #232233;
+        margin: 0;
+        margin-bottom: 20px; 
+    }
+    .p_desktop{
+        display: none;
+    }
+    .p_mobile{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #6C6C72;
+        margin-bottom: 18%;
+    }
+    .about_content{
+        
+    }
+    .about_image{
+        margin-bottom: 23%;
+        display:flex;
+        justify-content: center;
+    }
+    .about_image img{
+        
+    }    
+    .about_text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-item{
+        padding: 18px 16px 10px 16px;
+        display: flex;
+        width:100%;
+        margin-bottom: 20px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .about-item img{
+        height: 25%;
+        align-self: flex-start;
+    }
+    .about-item-text{
+        height: 100%;
+    }
+    .about-item-text h6{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #232233;
+        margin: 0 10px;
+    }
+    .about-item-text p{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #6C6C72;
+        margin-bottom: 0%;
+        margin-top: 1%;
+    }
+    
+}
+
+/*//////////////////////////////////////////seccion tree////////////////////////////////////////////*/
+/*////////////////////////////////////////////mobile//////////////////////////////////////////////*/
+@media (max-width: 767px) {
+
+    .section_page_tree_desktop{
+        display: none;
+    }
+    .section_page_tree_mobile{
+        background-image: url("../img/mobile/Rectangle\ 23.png");
+        max-width: 767px;
+        height: 2230px;
+        padding: 60px 37px 60px 37px;
+    }
+    .content_page_tree{
+        width: 100%;
+    }
+    .title{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 7%;
+    }
+    .content_page_tree p{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .features-item p{
+        margin-top:0px;
+        margin-bottom: 20px;
+    }
+    .features-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-item img{
+        align-self: center;
+    }
+    .features-item h4{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: white;
+        text-align: center;
+
+    }
+    .features-item:nth-child(3){
+        margin-bottom: 60px;
+    }
+    .features-image{
+        margin-bottom: 100px;
+        display:flex;
+        justify-content: center;
+    }
+    .features-image img{
+        width: 100%;
+    }
+
+}
+
+
+/*//////////////////////////////////////////seccion four////////////////////////////////////////////*/
+/*////////////////////////////////////////////mobile//////////////////////////////////////////////*/
+@media (max-width: 767px) {
+    .section_page_four{
+        background-color: white;
+        max-width: 767px;
+        height: 2250px;
+        padding: 67px 12px 217px 12px;
+    }
+    .container_page_four{
+        width: 100%;
+
+    }
+    .introduction{
+        width: 100%;
+
+    }
+    .introduction h4{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #232233;
+        margin-top: 0px;
+        margin-bottom: 18px;
+    }
+    .introduction p{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #6C6C72;
+        margin: 0 10%;
+        margin-bottom: 40px;
+    }
+    .content_team{
+
+    }
+    .tree_colums{
+        width: 100%;
+        height: 580px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 29px 15px 50px 15px;
+        margin-bottom: 8%;
+    }
+    .team_people{
+        margin-bottom: 75px;
+    }
+    .team_name{
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
+    .text_occupation{
+        margin-top: 3%;
+        margin-bottom: 9%;
+
+    }
+    .text_grey{
+        margin: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .social_container{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .red_insta_line{
+        width: 1px;
+        height: 25px;
+        background-color: #6C6C72;
+    }
+    .social-media-icon icon--black{
+        border: 1px solid #6C6C72;
+        transform: rotate(90deg);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////seccion one////////////////////////////////////////////*/
+/*////////////////////////////////////////////desktop//////////////////////////////////////////////*/
+@media (min-width: 992px) {
+    .section_page_one{
+        background-image: url("../img/desktop/Background-Image.png");
+        max-width: 1440pxpx;
+        height: 1024px;
+        padding: 216px 135px 20px 135px;
+    }
+
+    .section_page_one_container{
+        height: 100%;
+        display: flex;
+
+    }
+    .slogan_container{
+        position: relative;
+        width: 50%;
+    }
+    .rectangle{
+        margin-top: 20%;
+        right: 15px;
+        max-width:100%;
+        height: 60%;
+        border: 10px solid #7572FF;
+    }
+    .slogan {
+        position: absolute;
+        top: 19%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+        width: 95%;
+        height :52%;
+        padding: 0 5%;
+    }
+    .slogan h1{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48.83px;
+        line-height: 63px;
+
+        color: #5956E9; 
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+    .slogan p{
+        margin: 0;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #6C6C72;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .slogan h6{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #232233;
+        text-align: start;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+    .link-dawnload{
+        display: flex;
+        width: 230px;
+        height: 30px;
+        gap: 20px;
+    }
+    .link-dawnload img{
+        width: 30%;
+    }
+
+
+    .app_image{
+        display: flex;
+        justify-content: end;
+        width: 55%;
+    }
+    .app_image img{
+        height: 90%;
+    }
+}
+/*//////////////////////////////////////////seccion two////////////////////////////////////////////*/
+/*////////////////////////////////////////////desktop//////////////////////////////////////////////*/
+@media (min-width: 992px) {
+    .section_page_two{
+        background-color: white;
+        max-width: 1440px;
+        height: 1014px;
+        padding: 120px 135px 138px 166px;
+    }
+    .content_pag_two {
+        height: 100%;
+    }
+    .content_pag_two h5{
+        text-align: center;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 47px;
+        text-transform: uppercase;
+        color: #232233;
+        margin: 0;
+        margin-bottom: 20px; 
+    }
+    .p_mobile{
+        display: none;
+    }
+    .p_desktop{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #6C6C72;
+        margin-bottom: 18%;
+        max-width: 50%;
+        height: 70px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+
+    }
+    .about_content{
+        display: flex;
+        
+    }
+    .about_image{
+        display:flex;
+        justify-content: center;
+        width: 50%;
+        margin-bottom: 44px;
+        margin-top: 66px;
+    }
+    .about_image img{
+        
+    }    
+    .about_text{
+        display: flex;
+        flex-direction: column;
+        width: 58%;
+    }
+
+    .about-item{
+        padding: 18px 16px 10px 16px;
+        display: flex;
+        margin-bottom: 20px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        height: 160px;
+    }
+    .about-item img{
+        height: 25%;
+        margin-top: 3%;
+    }
+    .about-item-text{
+        margin: 0 auto;
+    }
+
+
+}
+/*//////////////////////////////////////////seccion tree////////////////////////////////////////////*/
+/*////////////////////////////////////////////desktop//////////////////////////////////////////////*/
+@media (min-width: 992px) {
+    .section_page_tree_mobile{
+        display: none;
+    }
+    .section_page_tree_desktop{
+        background-image: url("../img/desktop/Rectangle\ 14.png");
+        max-width: 1440px;
+        height: 1710px;
+        
+    }
+    .section{
+        width: 80%;
+        margin: auto;
+        padding: 80px 0 ;
+    }
+    
+    .title_p{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0 120px;
+        margin-bottom: 10%;
+    }
+    
+    .features-item{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 200px;
+        margin: auto;
+        display: block;
+    }
+    
+    .features-container{
+        height: 50%;
+        display: grid;
+        grid-template-areas: "a a a"
+                            "b1 b2 b3"
+                            "c1 b2 c3"
+                            "d d d";
+    }
+    
+    .features-item:nth-child(1){
+        grid-area: a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 240px;
+    }
+    .features-item:nth-child(2){
+        grid-area: b1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        height: 240px;
+    }
+    .features-image{
+        grid-area: b2;
+        display: block;
+        margin: auto;
+        padding: 5% 5%;
+        height: 85%;
+    }
+    .features-item:nth-child(3){
+        grid-area: b3;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        height: 240px;
+    }
+    .features-item:nth-child(4){
+        grid-area: c1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        height: 240px;
+    }
+    .features-item:nth-child(5){
+        grid-area: c3;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        height: 240px;
+    }
+    .features-item:nth-child(6){
+        grid-area: d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 240px;
+    }
+    
+    .features-item:nth-child(2) p, .features-item:nth-child(4) p{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+    
+    .features-item:nth-child(3) p, .features-item:nth-child(5) p{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .features-item h4{
+        font-size: 20px;
+        color: white;
+    }
+    .title{
+        color: white;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 47px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .features-item p{
+        width: 300px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 0;
+    }
+    
+    .features-item img{
+        filter: invert(1);
+        padding: 10px;
+    }
+    .features-image img{
+        height: 100%;
+        width: 100%;
+    }
+
+}
+/*//////////////////////////////////////////seccion four////////////////////////////////////////////*/
+/*////////////////////////////////////////////desktop//////////////////////////////////////////////*/
+@media (min-width: 992px) {
+    .section_page_four{
+        background-color: white;
+        max-width: 1440px;
+        height: 1091px;
+        padding: 123px 125px 185px 125px;
+    }
+    .container_page_four{
+        width: 100%;
+
+    }
+    .introduction{
+        width: 100%;
+
+    }
+    .introduction h4{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 47px;
+        text-transform: uppercase;
+        color: #232233;
+    }
+    .introduction p{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #6C6C72;
+        margin: 0 10%;
+        margin-bottom: 40px;
+    }
+    .content_team{
+        display: flex;
+        gap: 5%;
+
+    }
+    .tree_colums{
+        width: 100%;
+        height: 580px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 29px 15px 50px 15px;
+        margin-bottom: 8%;
+    }
+    .team_people{
+        margin-bottom: 75px;
+    }
+    .team_name{
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
+    .text_occupation{
+        margin-top: 3%;
+        margin-bottom: 9%;
+
+    }
+    .text_grey{
+        margin: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .social_container{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .red_insta_line{
+        width: 1px;
+        height: 25px;
+        background-color: #6C6C72;
+    }
+    .social-media-icon icon--black{
+        border: 1px solid #6C6C72;
+        transform: rotate(90deg);
+    }
+
+
+}
